@@ -12,7 +12,7 @@ guesses = 0
 game_play = True
 while game_play:
 	if guesses > 2 and guess != secret_Number:
-		print("Bad " + name + " the number i was thinking of is " + str(guess))
+		print("Bad " + name + " the number i was thinking of is " + str(secret_Number))
 		break
 	else:	
 		if secret_Number !=  guess and guess < secret_Number:
