@@ -1,6 +1,6 @@
 import random
 
-print("Hello what is your name?")
+print("Hello what is your age?")
 name = input()
 
 print("Well, "+ name + ", I am thinking of a number between 1 and 20. ")
